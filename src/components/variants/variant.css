@@ -1,0 +1,8 @@
+.boxItem{
+    width: 0.4rem;
+    height: 0.4rem;
+    background-color: white;
+    padding: 1.4rem;
+    list-style: none;
+    margin: 0.8rem;
+}

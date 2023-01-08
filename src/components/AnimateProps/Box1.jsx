@@ -8,12 +8,13 @@ const Box1 = () => {
 
   return (
     <div className='box-container'>
+      <h1>Animate</h1>
         <motion.div 
         className="box"
         animate={{
           x: isAnimate ? "50vw" : 0 ,
           opacity:isAnimate ? 1 : 0.5,
-          scale:isAnimate ? 2 : 1,
+          scale:isAnimate ? 1.4 : 1,
           rotate:isAnimate ? 360 : 0,
         }}
 
@@ -26,7 +27,7 @@ const Box1 = () => {
         transition={{
           type:'spring',
           stiffness:100,
-          damping:30
+          damping:25
         }}
         // transition={{
         //   type:'tween',     

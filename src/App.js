@@ -1,13 +1,13 @@
 import './App.css';
 import { BrowserRouter as Router , Routes , Route } from 'react-router-dom'
-import Animate from './components/AnimateProps/Animate'
+import Index from './components';
 
 function App() {
   return (
     <Router>
       <Routes>
         <Route path="/">
-          <Route index element={<Animate/>}/>
+          <Route index element={<Index/>}/>
         </Route>
       </Routes>
     </Router>
